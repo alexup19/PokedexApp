@@ -65,7 +65,11 @@ Start the App
 
 ## Roadmap
 
-Considering that the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added in the future:
+- App Icon
+- Splash Screen
+- Offline Mode
+
+Considering that the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added together in the future:
 
 - GraphQL Client - Consuming [PokéAPI GraphQL](https://pokeapi.co/docs/graphql) 
 - Search Pokémon - Using PokéAPI GraphQL Client
