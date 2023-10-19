@@ -12,7 +12,7 @@ A pokémon encyclopedia app for iOS and Android powered by React Native.
 - React Config
 - React Navigation
 - React Query
-- RESTful Client
+- REST API Client
 - Styled Components
 - SVG Icons
 - TypeScript
