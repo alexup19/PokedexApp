@@ -4,6 +4,7 @@ import styled from 'styled-components/native';
 import FastImage from 'react-native-fast-image';
 
 import {Colors} from 'theme/colors';
+import {Caption} from 'theme/text';
 import {verticalScale, scale} from 'utils/scaling';
 
 export const ListItem = styled.TouchableOpacity`
@@ -30,6 +31,12 @@ export const ListItemBottom = styled.View`
 export const ListImage = styled(FastImage)`
   width: ${verticalScale(72)}px;
   height: ${verticalScale(72)}px;
+`;
+
+export const PokemonNumber = styled(Caption)`
+  width: 100%;
+  padding-top: ${verticalScale(4)}px;
+  padding-right: ${scale(8)}px;
 `;
 
 export const styles = StyleSheet.create({
