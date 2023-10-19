@@ -3,7 +3,7 @@
 
 A pokémon encyclopedia app for iOS and Android powered by React Native.
 
-![Image](screenshots/main.png) ![Image](screenshots/main.png) ![Image](screenshots/main.png)
+![Image](screenshots/main.png)
 ## Features
 
 - Atomic Design
