@@ -65,7 +65,7 @@ Start the App
 
 ## Roadmap
 
-Considering the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added in the future:
+Considering that the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added in the future:
 
 - GraphQL Client - Consuming [PokéAPI GraphQL](https://pokeapi.co/docs/graphql) 
 - Search Pokémon - Using PokéAPI GraphQL Client
