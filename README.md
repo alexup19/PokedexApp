@@ -12,6 +12,7 @@ A pokémon encyclopedia app for iOS and Android powered by React Native.
 - React Config
 - React Navigation
 - React Query
+- RESTful Client
 - Styled Components
 - SVG Icons
 - TypeScript
@@ -61,3 +62,11 @@ Start the App
   npx react-native run-android
 ```
 
+
+## Roadmap
+
+Considering the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added in the future:
+
+- GraphQL Client - Consuming [PokéAPI GraphQL](https://pokeapi.co/docs/graphql) 
+- Search Pokémon - Using PokéAPI GraphQL Client
+- Filter Pokémon - Using PokéAPI GraphQL Client
