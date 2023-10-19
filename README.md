@@ -61,3 +61,12 @@ Start the App
   npx react-native run-android
 ```
 
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot2.png?token=GHSAT0AAAAAACIYLD6WIQFTFOVKROTDYT5WZJQSIBA)
+
+![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot3.png?token=GHSAT0AAAAAACIYLD6XKBYYSSKY7WB2LP6OZJQSOGA)
+
+![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot.png?token=GHSAT0AAAAAACIYLD6WLIAFONCF4ZK4TAAQZJQSFPA)
+
