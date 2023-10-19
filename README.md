@@ -21,7 +21,7 @@ A pokémon encyclopedia app for iOS and Android powered by React Native.
 ## Resources
 
 - API - [Pokémon API](https://pokeapi.co/) by [PokéAPI](https://github.com/PokeAPI)
-- Design System - [Pokédex Figma App](https://www.figma.com/community/file/979132880663340794) by [Ricardo Schiniegoski](https://www.figma.com/@ricardohs)
+- Design System File - [Pokédex Prototype Figma](https://www.figma.com/community/file/979132880663340794) by [Ricardo Schiniegoski](https://www.figma.com/@ricardohs)
 
 
 ## Environment Variables
