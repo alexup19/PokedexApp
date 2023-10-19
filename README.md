@@ -3,7 +3,7 @@
 
 A pokémon encyclopedia app for iOS and Android powered by React Native.
 
-
+![Image](screenshots/main.png)
 ## Features
 
 - Atomic Design
@@ -60,13 +60,4 @@ Start the App
   npx react-native run-ios
   npx react-native run-android
 ```
-
-
-## Screenshots
-
-![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot2.png?token=GHSAT0AAAAAACIYLD6WIQFTFOVKROTDYT5WZJQSIBA)
-
-![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot3.png?token=GHSAT0AAAAAACIYLD6XKBYYSSKY7WB2LP6OZJQSOGA)
-
-![App Screenshot](https://raw.githubusercontent.com/alexup19/PokedexApp/main/screenshots/screenshot.png?token=GHSAT0AAAAAACIYLD6WLIAFONCF4ZK4TAAQZJQSFPA)
 
