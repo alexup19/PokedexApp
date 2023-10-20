@@ -77,7 +77,7 @@ Start the App
 - Offline Mode
 - Splash Screen
 
-Considering that the REST API from PokéAPI doest not support any kind of search or filter parameters, the following features will be added together in the future:
+Considering that the REST API from PokéAPI does not support any kind of search or filter parameters, the following features will be added together in the future:
 
 - GraphQL Client - Consuming [PokéAPI GraphQL](https://pokeapi.co/docs/graphql) 
 - Filter Pokémon - Using PokéAPI GraphQL Client
