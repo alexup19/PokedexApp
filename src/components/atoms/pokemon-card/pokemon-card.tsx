@@ -14,16 +14,11 @@ import {
 } from './styles';
 import {PokemonCardProps} from './types';
 
-export const PokemonCard = ({
+export const PokemonCard: React.FC<PokemonCardProps> = ({
   pokemon,
   onPress,
   id,
   count,
-}: {
-  pokemon: PokemonCardProps;
-  onPress: (itemId: string, count: number) => void;
-  id: string;
-  count: number;
 }) => (
   <ListItem style={styles.listItemShadow} onPress={() => onPress(id, count)}>
     <PokemonNumber color={Colors.grayscale.medium} align="right">

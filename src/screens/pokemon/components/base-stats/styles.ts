@@ -18,7 +18,7 @@ export const StatInfoContainer = styled.View`
 `;
 
 export const StatTitle = styled(Subtitle3)`
-  width: ${scale(31)}px;
+  width: ${scale(35)}px;
 `;
 
 export const StatDivider = styled.View`

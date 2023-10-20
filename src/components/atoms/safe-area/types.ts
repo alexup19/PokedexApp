@@ -2,11 +2,15 @@ import {ReactNode} from 'react';
 
 import {ViewProps} from 'react-native';
 
-export type SafeAreaProps = {
+export type SafeAreaProps = ViewProps & {
   children: ReactNode;
-  backgroundColor?: string | undefined;
+  backgroundColor?: string;
+  insetBottom?: boolean;
+  style?: object;
 };
 
-export type SafeAreViewProps = ViewProps & {
-  backgroundColor?: string | undefined;
+export type SafeAreViewProps = {
+  backgroundColor?: string;
+  paddingTop: number;
+  paddingBottom: number;
 };

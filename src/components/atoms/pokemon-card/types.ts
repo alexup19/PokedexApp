@@ -1,4 +1,9 @@
 export type PokemonCardProps = {
-  name: string;
-  url: string;
+  pokemon: {
+    name: string;
+    url: string;
+  };
+  onPress: (itemId: string, count: number) => void;
+  id: string;
+  count: number;
 };

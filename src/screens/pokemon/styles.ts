@@ -16,12 +16,16 @@ export const Body = styled.View`
   flex: 1;
   border-radius: 8px;
   border: 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: ${verticalScale(70)}px;
+`;
+
+export const BodyContainer = styled.View`
   gap: ${verticalScale(16)}px;
   padding: ${verticalScale(56)}px ${scale(20)}px ${verticalScale(20)}px
     ${scale(20)}px;
 `;
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
   flex: 1;
   position: relative;
   padding: ${scale(4)}px ${verticalScale(4)}px;

@@ -2,7 +2,6 @@ import React from 'react';
 
 import {Headline} from 'theme/text';
 import {Colors} from 'theme/colors';
-
 import {PokeballIcon, FilterIcon, SearchIcon} from 'icons';
 
 import {

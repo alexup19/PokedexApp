@@ -1,4 +1,5 @@
 import {TextProps} from 'react-native';
+
 import styled from 'styled-components/native';
 
 import {verticalScale} from 'utils/scaling';

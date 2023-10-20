@@ -2,12 +2,13 @@ import React, {useState} from 'react';
 
 import {FlashList} from '@shopify/flash-list';
 
-import {useGetAllPokemon} from 'api/pokemon/get-all-pokemon';
+import {useGetAllPokemon} from 'api/pokemon/';
 import {scale} from 'utils/scaling';
 import {Colors} from 'theme/colors';
 
 import {PokemonCard} from 'atoms';
 
+import {Placeholder} from '../';
 import {Footer, LoadingSpinner, Body, styles} from './styles';
 import {ListItemProps, ListProps} from './types';
 
@@ -55,12 +56,12 @@ export const List: React.FC<ListProps> = ({goToPokemonScreen}) => {
 
   return (
     <Body>
-      {isLoading ? (
-        <LoadingSpinner color={Colors.identity.primary} />
+      {isLoading || data === undefined ? (
+        <Placeholder />
       ) : (
         <FlashList
           numColumns={3}
-          data={data?.flattenData}
+          data={data.flattenData}
           renderItem={_renderItem}
           contentContainerStyle={styles.listContentContainer}
           keyExtractor={_keyExtractor}

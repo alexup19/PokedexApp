@@ -70,6 +70,7 @@ export const BaseStats: React.FC<BaseStatsProps> = ({stats, themeColor}) => {
       data={statsData}
       renderItem={_renderItem}
       keyExtractor={_keyExtractor}
+      scrollEnabled={false}
     />
   );
 };

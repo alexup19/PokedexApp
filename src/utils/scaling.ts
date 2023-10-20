@@ -2,9 +2,7 @@ import {Dimensions} from 'react-native';
 
 const {width, height} = Dimensions.get('window');
 
-//Guideline sizes are based on iPhone 11 Pro's screen device
-// const guidelineBaseWidth = 375;
-// const guidelineBaseHeight = 812;
+//Guideline sizes are based on the design file's app screen size
 const guidelineBaseWidth = 360;
 const guidelineBaseHeight = 640;
 

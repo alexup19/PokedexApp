@@ -19,8 +19,8 @@ export const PokemonListScreen: React.FC<PokemonListScreenProps> = ({
 
   return (
     <SafeArea backgroundColor={Colors.identity.primary}>
+      <StatusBar barStyle="light-content" />
       <Container>
-        <StatusBar animated={true} barStyle="light-content" />
         <Header />
         <List goToPokemonScreen={goToPokemonScreen} />
       </Container>

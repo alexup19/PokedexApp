@@ -5,16 +5,20 @@ import {SafeAreaProps} from './types';
 
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-export const SafeArea = ({children, backgroundColor, style}: SafeAreaProps) => {
+export const SafeArea = ({
+  children,
+  backgroundColor,
+  style,
+  insetBottom = true,
+}: SafeAreaProps) => {
   const insets = useSafeAreaInsets();
 
   return (
     <SafeAreaView
       backgroundColor={backgroundColor}
-      style={{
-        paddingTop: insets.top,
-        ...style,
-      }}>
+      paddingTop={insets.top}
+      paddingBottom={insetBottom ? insets.bottom : 0}
+      style={style}>
       {children}
     </SafeAreaView>
   );
