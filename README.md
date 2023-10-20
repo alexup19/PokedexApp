@@ -57,11 +57,17 @@ Install dependencies
   pod install
 ```
 
+Start Metro
+
+```bash
+  npm start
+```
+
 Start the App
 
 ```bash
-  npx react-native run-ios
-  npx react-native run-android
+  npm run ios
+  npm run android
 ```
 
 
